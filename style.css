@@ -47,7 +47,13 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
-
+.aboutcontainer{
+    padding: 0;
+}
+.portfoliocontainer{
+    padding: 0;
+    padding-top: 50px;
+}
 .bloc-md {
     padding: 50px;
 }
@@ -66,8 +72,8 @@ margin-bottom: 30px;
 }
 .bloccitation{
     margin: auto;
-    width: 65%;
-    margin-bottom: 40px;
+    width: 71%;
+    margin-bottom: 85px;
 }
 
 .textecitation p:nth-child(1){
@@ -112,11 +118,10 @@ margin-bottom: 30px;
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+.texture-paper::before{
+    background: url(img/texture-paper.png);
+    opacity: 0.5;
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -155,7 +160,7 @@ margin-bottom: 30px;
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -172,7 +177,7 @@ margin-bottom: 30px;
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.822);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -290,9 +295,6 @@ margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.voffset-lg {
-    margin-top: 80px;
-}
 
 .row-no-gutters {
     margin-right: 0;
@@ -775,7 +777,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:#b86e00;
     padding: 40px 40px 40px 40px;
 }
 
@@ -793,20 +795,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#d07d00;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
+}
+.tc-white1 {
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:#d07d00;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:#ac6700;
     color: #FFFFFF!important;
 }
 
@@ -815,20 +820,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
-}
-
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
-}
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956!important;
-}
-
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #e4e4e4!important;
 }
 
 .bg-dots-bg {
@@ -843,9 +835,6 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
-}
 
 @media (max-width: 1024px) {
     .bloc {
