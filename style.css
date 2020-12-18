@@ -19,7 +19,7 @@ a:hover {
 }
 
 #page-loading-blocs-notifaction {
-    position: fixed;
+
     top: 0;
     bottom: 0;
     width: 100%;
@@ -121,9 +121,6 @@ margin-bottom: 30px;
 .texture-paper::before{
     background: url(img/texture-paper.png);
     opacity: 0.5;
-}
-.b-parallax {
-    background-attachment: fixed;
 }
 
 .d-bloc {
@@ -537,7 +534,6 @@ button {
 .scrollToTop {
     width: 40px;
     height: 40px;
-    position: fixed;
     bottom: 20px;
     right: 20px;
     opacity: 0;
@@ -799,7 +795,7 @@ h4 {
 }
 
 .tc-white {
-    color: #000000!important;
+    color: #fdff9ec5!important;
     font-weight: 600;
 }
 .tc-white1 {
