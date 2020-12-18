@@ -51,11 +51,33 @@ a:hover {
 .bloc-md {
     padding: 50px;
 }
+.textdescription{
+    width: 55%;
+    margin: auto;
+}
+.textdescription p{
+font-size: 20px;
+text-align: center;
+margin-bottom: 30px;
+}
 
 .bloc-sm {
     padding: 20px 50px;
 }
+.bloccitation{
+    margin: auto;
+    width: 65%;
+    margin-bottom: 40px;
+}
 
+.textecitation p:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+.textecitation p:nth-child(2){
+    font-size: 18px;
+    font-style: italic;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -677,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
