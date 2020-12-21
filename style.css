@@ -388,18 +388,16 @@ nav .caret {
 }
 
 button {
+    margin-left:215px ;
     outline: none!important;
-}
-
-.btn-rd {
-    border-radius: 40px;
-}
-
-.btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
+    border-radius: 40px;
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+}
+button a {
+    color: white;
 }
 
 .icon-md {
