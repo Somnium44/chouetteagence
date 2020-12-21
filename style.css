@@ -17,6 +17,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 
 #page-loading-blocs-notifaction {
@@ -686,10 +687,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
