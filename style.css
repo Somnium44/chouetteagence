@@ -364,6 +364,12 @@ nav .caret {
     margin-bottom: 20px;
 }
 
+.pdescription {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
