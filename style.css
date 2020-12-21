@@ -48,9 +48,7 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-.site-navigation{
 
-}
 .site-navigation a:nth-child(2){
     margin-left: 30px;
 }
@@ -58,11 +56,6 @@ a:hover {
     font-size: 16px;
     text-decoration: none;
     color: black;
-}
-.site-navigation a:hover{
-    font-weight: 600;
-    color: #c24f02;
-
 }
 
 .bloc-lg {
@@ -227,7 +220,7 @@ margin-bottom: 30px;
     
 }
 
-#bloc-1-hero h1 {
+.bloc-1-hero h1 {
     font-size: 32px;
 }
 
